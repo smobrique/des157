@@ -84,6 +84,11 @@ img {
      color: #fff;
      background-color: #322451;
 }
+
+ article, footer {
+     background-color: #322451;
+}
+
  footer {
      clear: both;
      position: fixed;
