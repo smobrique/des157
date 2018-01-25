@@ -1,0 +1,102 @@
+@charset "UTF-8";
+ * {
+     margin: 0;
+     padding: 0;
+}
+ body {
+     font-family: 'AVENIR', serif;
+     color: #333;
+     background-color: #e1dbf6;
+}
+ #mySketch {
+     width: 100%;
+     max-width: 800px;
+     margin: auto;
+}
+ header img {
+     display: block;
+}
+ #container {
+     width: 800px;
+     margin: auto;
+     padding-top: 30px;
+}
+ article {
+     margin: auto;
+     width: 780px;
+     padding: 10px;
+     color: #fff;
+     text-align: center;
+}
+ section {
+     margin: auto;
+     padding: 20px;
+     width: 800px;
+}
+
+img {
+  margin: auto;
+  padding-bottom: 5px;
+}
+
+ ol, ul, li {
+     padding-left: 20px;
+}
+ ol {
+     list-style-type:decimal;
+}
+ ul {
+     list-style-type: circle;
+}
+ h1 {
+     font-size: 25px;
+     text-align: center;
+     text-transform: uppercase;
+     color: #fff;
+}
+ h2 {
+     font-weight: bold;
+     margin-bottom: 15px;
+     text-align: center;
+     font-size: 32px;
+     text-transform: uppercase;
+     color: #3b3652;
+}
+ h3 {
+     font-weight: bold;
+     text-align: center;
+     font-size: 12px;
+     text-transform: uppercase;
+     color: #3b3652;
+}
+ p {
+     line-height: 22px;
+     margin-bottom: 6px;
+     color: #30264e;
+}
+ a {
+     text-decoration: none;
+     line-height: 22px;
+     margin-bottom: 6px;
+     color: #4c3233;
+}
+ a:hover {
+     color: #fff;
+     background-color: #322451;
+}
+ footer {
+     clear: both;
+     position: fixed;
+     bottom: 0;
+     width: 800px;
+     padding: 5px;
+     text-align: center;
+}
+ footer a {
+     line-height: 22px;
+     margin-bottom: 6px;
+     color: #fff;
+}
+ footer a:hover {
+     color: #e2d8f8;
+}
