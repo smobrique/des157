@@ -78,8 +78,8 @@ input {
 
 .button {
     border-radius: 10px;
-    margin-left: 100px;
-    width: 200px;
+    margin-left: 5px;
+    width: 190px;
     height: 40px;
     font-size: 14px;
     display: inline-block;
