@@ -1,6 +1,6 @@
 console.log("reading");
 
-"use strict"
+'use strict';
 
     function processForm() {
           document.f.onsubmit = processForm;
