@@ -2,10 +2,10 @@ console.log("reading");
 
 "use strict";
 
+function processForm() {
 document.f.onsubmit = processForm;
 document.f.onreset = clearForm;
-
-    function processForm() {
+        
         var userName = document.f.userName.value;
         var userNum = document.f.userNum.value;
         var userCandy = document.f.userCandy.value;
