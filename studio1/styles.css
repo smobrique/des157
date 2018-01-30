@@ -1,130 +1,114 @@
-@charset "UTF-8";
 @import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great');
-
- * {
-     margin: 0;
-     padding: 0;
+* {
+	margin: 0;
+	padding: 0;
 }
-
 body {
-    color: white;
-    font-family: 'AVENIR', serif;
-    background-color: #2e2e2e;
-    font-size: 16px;
-    letter-spacing: .5px;
-    background: url("images/background.jpg");
+	color: white;
+	font-family: 'AVENIR', serif;
+	background-color: #2e2e2e;
+	font-size: 16px;
+	letter-spacing: .5px;
+	background: url("images/background.jpg");
 }
-
-header{
-  text-align: center;
-  margin-top: 80px;
-  margin-bottom: 30px;
+header {
+	text-align: center;
+	margin-top: 80px;
+	margin-bottom: 30px;
 }
-
 h1 {
-    font-family: 'Fredericka the Great', cursive;
-    display: inline;
-    font-size: 50px;
-    line-height: 80px;
-    padding: 30px;
-    color: #000;
-    background-color: #fff;
-    border: 2px solid #fff;
-    border-radius: 10px;
+	font-family: 'Fredericka the Great', cursive;
+	display: inline;
+	font-size: 50px;
+	line-height: 80px;
+	padding: 30px;
+	color: #000;
+	background-color: #fff;
+	border: 2px solid #fff;
+	border-radius: 10px;
 }
-
 main {
-    width: 1000px;
-    margin: auto;
+	width: 1000px;
+	margin: auto;
 }
-
 article {
-    width: 40%;
-    margin-right: 0px;
-    float: left;
+	margin-left: 350px;
+	float: left;
+	background-color: #000;
+	padding: 20px;
 }
-
-aside {
-    float: right;
-    width: 40%;
-    font-size: 18px;
-    color: #fff;
-}
-
-/* input styles */
-
 input {
-    background-color: #fff;
-    height: 20px;
-    font-size: 16px;
-    padding: 5px;
-    margin-top:10px;
-    color: #000;
-    letter-spacing: 2px;
-    display: block;
+	background-color: #fff;
+	height: 20px;
+	font-size: 16px;
+	padding: 5px;
+	margin-top: 10px;
+	color: #000;
+	letter-spacing: 2px;
+	display: block;
 }
-
-.clear {
-    display: none;
+label {
+	color: #fff;
+	display: inline-block;
+	padding-top: 6px;
 }
-
+.hide {
+	display: none;
+}
 .show {
-    display: block;
+	display: block;
+	width: 450px;
+	margin-left: 150px;
+	background-color: #000;
+	padding: 10px;
 }
-
 .input-div {
-    padding: 10px;
-    background-color: #000;
+	padding: 10px;
+	background-color: #000;
 }
-
 .button {
-    border-radius: 10px;
-    margin-left: 5px;
-    width: 190px;
-    height: 40px;
-    font-size: 14px;
-    display: inline-block;
-    background-color: #000;
-    color: #fff;
+	border-radius: 10px;
+	margin-left: 5px;
+	width: 190px;
+	height: 40px;
+	font-size: 14px;
+	display: inline-block;
+	background-color: #000;
+	color: #fff;
 }
-
 .button-div {
-    clear: both;
-  padding-bottom: 40px;
+	padding-top: 30px;
+	clear: both;
 }
-
 .button:hover {
-    background-color: #fff;
-    color: #000;
+	background-color: #fff;
+	color: #000;
 }
-
 ol {
-    list-style: decimal;
+	list-style: decimal;
 }
-
 li {
-    padding-top: 25px;
+	padding-top: 25px;
 }
-
 em {
-    color: #ba1d1d;
-    text-transform: uppercase;
+	color: #ba1d1d;
+	text-transform: uppercase;
 }
-
 footer {
-    clear: both;
-    position: fixed;
-    bottom: 0;
-    width: 1000px;
-    padding: 5px;
-    text-align: center;
-    background-color: #000;
+	clear: both;
+	position: fixed;
+	bottom: 0;
+	width: 1000px;
+	padding: 5px;
+	left: 300px;
+	text-align: center;
+	background-color: #000;
 }
 footer a {
-    line-height: 22px;
-    margin-bottom: 6px;
-    color: #fff;
+	line-height: 22px;
+	margin-bottom: 6px;
+	color: #fff;
 }
 footer a:hover {
-    color: #ba1d1d;
+	color: #ba1d1d;
 }
