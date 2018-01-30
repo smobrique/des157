@@ -89,8 +89,8 @@ input {
 }
 
 .button-div {
-    padding-top: 30px;
     clear: both;
+  padding-bottom: 40px;
 }
 
 .button:hover {
