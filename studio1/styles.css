@@ -32,7 +32,7 @@ main {
 	margin: auto;
 }
 article {
-	margin-left: 5%;
+	margin-left: 10%;
 	float: left;
 	background-color: #000;
 	padding: 15px;
@@ -41,8 +41,7 @@ input {
 	background-color: #fff;
 	height: 20px;
 	font-size: 16px;
-	padding: 5px;
-	margin-top: 10px;
+	margin-top: 5px;
 	color: #000;
 	letter-spacing: 2px;
 	display: block;
