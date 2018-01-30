@@ -97,8 +97,8 @@ footer {
 	clear: both;
 	position: fixed;
 	bottom: 0;
-	width: 1000px;
 	padding: 5px;
+  display: inline;
 	text-align: center;
 	background-color: #000;
 }
