@@ -34,5 +34,5 @@ console.log("reading");
     }
 
     function clearForm() {
-        myMsg.className = 'hide';
+        myMsg.className = 'clear';
 }
