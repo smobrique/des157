@@ -10,6 +10,7 @@ var close = document.getElementById('close');
 var close2 = document.getElementById('close2');
 var close3 = document.getElementById('close3');
 
+/* overlays*/
 pola01.addEventListener('click', function(){
   desc1.style.display="block";
 })
