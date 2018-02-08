@@ -6,25 +6,79 @@
      font-family: Helvetica;
      padding: 12px;
      font-size: 100%;
-     background-color: #f1d0d0;
+     background: url("images/background.jpg");
+}
+ header {
+     background-color: #E5AAAA;
+     top: 0;
+     left: 0;
+     width: 100%;
+     text-align: center;
 }
  h1 {
+     font-family: 'Abril Fatface', cursive;
+     text-decoration: none;
      color: #fff;
      font-size: 42px;
 }
  section {
-     margin: auto;
+     margin-top: 3%;
+     text-align: center;
      font-size: 2em;
+}
+ img {
+     display: inline;
+}
+ img:hover {
+     -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+     -o-transition: all 0.5s ease;
+     -ms-transition: all 0.5s ease;
+     transition: all 0.5s ease;
+     transform: scale(1.2);
+     -ms-transform: scale(1.2);
+    /*IE 9*/
+     -webkit-transform: scale(1.2);
+    /*Safari and Chrome*/
 }
  button {
      border: 0px;
-     border-radius: 14px;
-     padding: 12px;
-     color: #c99595;
+     border-radius: 0px;
 }
-
+ #desc1, #desc2, #desc3 {
+     top: 15%;
+     position: absolute;
+     width: 350px;
+     height: 350px;
+     background-color: #fff;
+     color: #000;
+     border: dashed 3px #E5AAAA;
+     display: none;
+}
+ #desc1 p, #desc2 p, #desc3 p {
+     font-family: 'Questrial', sans-serif;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     font-size: 24px;
+}
+ #desc1 {
+     left: 20%;
+}
+ #desc2 {
+     left: 35%;
+}
+ #desc3 {
+     left: 55%;
+}
+ #close, #close2, #close3 {
+     position: absolute;
+     top: 10px;
+     right: 10px;
+}
 /* mobile viewport*/
- @media only screen and (min-width: 768px) {
+ @media only screen and (max-width: 768px) {
      body {
          font-family: Helvetica;
          padding: 12px;
@@ -33,40 +87,21 @@
     }
      img {
          display: inline;
-         border-bottom: 0px;
     }
      section {
          text-align: center;
     }
      #desc1, #desc2, #desc3 {
-         top: 17%;
-         position: absolute;
-         width: 350px;
-         height: 350px;
+         top: 50%;
+         width: 450px;
          background-color: #E5AAAA;
          color: #fff;
-         display: none;
     }
      #desc1 p, #desc2 p, #desc3 p {
-         position: absolute;
-         top: 50%;
-         left: 50%;
-         transform: translate(-50%, -50%);
-         font-size: 20px;
+         font-size: 30px;
     }
-     #desc1 {
-         left: 23%;
-    }
-     #desc2 {
-         left: 35% 
-    }
-     #desc3 {
-         left: 50%;
-    }
-     #close, #close2, #close3 {
-         position: absolute;
-         top: 10px;
-         right: 10px;
+     #desc1, #desc2, #desc3 {
+         left: 20%;
     }
 }
  footer {
