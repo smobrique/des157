@@ -44,6 +44,7 @@
  button {
      border: 0px;
      border-radius: 0px;
+     padding: 12px;
 }
  #desc1, #desc2, #desc3 {
      top: 15%;
