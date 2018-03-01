@@ -36,6 +36,7 @@
      height: auto;
      background-color: #fff;
      border-top: solid 6px #322451;
+     border-bottom: solid 6px #322451;
 }
  article, footer {
      background-color: #322451;
