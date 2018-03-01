@@ -1,88 +1,54 @@
-@charset "UTF-8";
- * {
-     margin: 0;
-     padding: 0;
-}
- body {
-     font-family: 'AVENIR', serif;
-     color: #333;
-     background-color: #e1dbf6;
-}
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8" />
+      <title>Interactive Wireframe</title>
+      <link rel="stylesheet" href="styles.css">
+   </head>
 
-#page1, #page2, #page3, #page4 {
-  width: auto;
-  height: 1000px;
-}
+<body>
+   <div id="nav">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#narratives">List of Narratives</a></li>
+            <li><a href="#submit">Submit</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+   </div>
 
-#page1, #page3 {
-	background: url("images/background1.jpg");
-}
+<div id="home">
+  <a id="#" class="smooth"></a>
+  <h1>Welcome</h1>
+  <p>Home page content goes here.</p>
+</div>
 
-#page2, #page4 {
-  	background: url("images/background2.jpg");
-}
+<div id="page1">
+  <a id="about" class="smooth"></a>
+    <h1>About</h1>
+    <p>About content goes here.</p>
+</div>
 
-h1 {
-  font-family: 'AVENIR', serif;
-  text-transform: uppercase;
-  color: #3b3652;
-  margin: auto;
-  margin-top: 12px;
-}
+<div id="page2">
+  <a id="narratives" class="smooth"></a>
+  <h1>Narratives</h1>
+  <p>Narrative content goes here.</p>
+</div>
 
-p {
-  font-family: 'AVENIR', serif;
-  font-size: 16px;
-  margin: auto;
-  margin-top: 50px;
-  width: 500px;
-  height: auto;
-  padding: 4px;
-  background-color: #fff;
-}
+<div id="page3">
+  <a id="submit" class="smooth"></a>
+  <h1>Submit</h1>
+  <p>Submission form goes here.</p>
+</div>
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    top: 0;
-    padding: 0;
-    width: 100%;
-    overflow: hidden;
-    background-color: #3b3652;
-    position: fixed;
-}
+<div id="page4">
+  <a id="contact" class="smooth"></a>
+  <h1>Contact</h1>
+  <p>Contact information goes here.</p>
+</div>
 
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover {
-    background-color: #796FA8;
-}
-
-footer {
-    clear: both;
-    position: fixed;
-    margin: auto;
-    bottom: 0;
-    width: 100%;
-    padding: 5px;
-    text-align: center;
-    background-color: #3b3652;
-}
-footer a {
-    line-height: 22px;
-    margin-bottom: 6px;
-    color: #fff;
-}
-footer a:hover {
-    color: #e2d8f8;
-}
+<footer>
+   <a href="mailto:&#115;&#109;&#111;&#098;&#114;&#105;&#113;&#117;&#101;&#064;&#117;&#099;&#100;&#097;&#118;&#105;&#115;&#046;&#101;&#100;&#117;">E-Mail</a> | <a href="https://github.com/smobrique">Github</a>
+   | <a href="http://validator.w3.org/check?uri=referer">Valid HTML5</a> | <a href="https://jigsaw.w3.org/css-validator/check/referer">Valid CSS</a>
+</footer>
+</body>
