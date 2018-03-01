@@ -33,7 +33,7 @@
      float: left;
      padding: 20px;
      width: 210px;
-     height: 320px;
+     height: auto;
      background-color: #fff;
      border-top: solid 6px #322451;
 }
