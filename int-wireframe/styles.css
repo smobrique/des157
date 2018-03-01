@@ -1,0 +1,29 @@
+@charset "UTF-8";
+ * {
+     margin: 0;
+     padding: 0;
+}
+ body {
+     font-family: 'AVENIR', serif;
+     color: #333;
+     background-color: #e1dbf6;
+}
+
+footer {
+    clear: both;
+    position: fixed;
+    margin: auto;
+    bottom: 0;
+    width: 800px;
+    padding: 5px;
+    text-align: center;
+    background-color: #3b3652;
+}
+footer a {
+    line-height: 22px;
+    margin-bottom: 6px;
+    color: #fff;
+}
+footer a:hover {
+    color: #e2d8f8;
+}
