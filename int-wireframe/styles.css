@@ -9,6 +9,29 @@
      background-color: #e1dbf6;
 }
 
+#page1, #page2, #page3, #page4 {
+  height: 1000px;
+}
+
+h1 {
+  font-family: 'AVENIR', serif;
+  text-transform: uppercase;
+  color: #3b3652;
+  margin: auto;
+  margin-top: 12px;
+}
+
+p {
+  font-family: 'AVENIR', serif;
+  font-size: 16px;
+  margin: auto;
+  margin-top: 50px;
+  width: 500px;
+  height: auto;
+  padding: 4px;
+  background-color: #fff;
+}
+
 footer {
     clear: both;
     position: fixed;
