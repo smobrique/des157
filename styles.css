@@ -33,9 +33,9 @@
      float: left;
      padding: 20px;
      width: 210px;
-     height: 240px;
+     height: 320px;
      background-color: #fff;
-     border: solid 6px #322451;
+     border-top: solid 6px #322451;
 }
  article, footer {
      background-color: #322451;
