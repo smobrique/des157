@@ -1,0 +1,101 @@
+ * {
+     margin: 0;
+     padding: 0;
+}
+ body {
+     font-family: 'AVENIR', serif;
+     color: #333;
+     background-color: #000;
+}
+
+#home, #page1, #page2, #page3, #page4 {
+  width: auto;
+  height: 1000px;
+}
+
+#home {
+	background: url("images/friendshipgames.jpg");
+}
+
+h1 {
+  font-family: 'AVENIR', serif;
+  text-transform: uppercase;
+  color: #3b3652;
+  margin: auto;
+  margin-top: 12px;
+}
+
+h2 {
+  font-family: 'AVENIR', serif;
+  font-size: 72px;
+  text-transform: uppercase;
+  color: #fff;
+  margin: auto;
+  margin-top: 150px;
+  padding-left: 10%;
+}
+
+h3 {
+  font-family: 'AVENIR', serif;
+  font-size: 48px;
+  color: #fff;
+  margin: auto;
+  padding-left: 25%;
+}
+
+p {
+  font-family: 'AVENIR', serif;
+  font-size: 16px;
+  margin: auto;
+  margin-top: 50px;
+  width: 500px;
+  height: auto;
+  padding: 4px;
+  background-color: #fff;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    top: 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: #000;
+    position: fixed;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #666;
+}
+
+footer {
+    clear: both;
+    position: fixed;
+    margin: auto;
+    bottom: 0;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    background-color: #000;
+}
+footer a {
+    line-height: 22px;
+    margin-bottom: 6px;
+    color: #fff;
+}
+footer a:hover {
+    color: #e2d8f8;
+}
