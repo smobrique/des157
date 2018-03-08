@@ -20,36 +20,34 @@
   <a id="#" class="smooth"></a>
   
   <h1>Welcome</h1>
+    <div class="text">
+    My Story, Your Story, Our Story.
+    <br>A Narrative-Based Website Project
+  </div>
   
-
 <div class="slideshow-container">
   <div class="homeSlides fade">
-    <img src="images/friendshipgames.jpg" alt="Friendship Games">
+    <img src="images/friendshipgames.jpg" alt="Friendship Games" style="width:100%">
   </div>
 
   <div class="homeSlides fade">
-    <img src="images/leadershipretreat.jpg" alt="Leadership Retreat">
+    <img src="images/leadershipretreat.jpg" alt="Leadership Retreat" style="width:100%">
   </div>
 
   <div class="homeSlides fade">
-    <img src="images/mkboard.jpg" alt="MK Board 2017-2018">
+    <img src="images/mkboard.jpg" alt="MK Board 2017-2018" style="width:100%">
   </div>
 
-  <!-- Next and previous buttons -->
   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
   <a class="next" onclick="plusSlides(1)">&#10095;</a>
 </div>
 <br>
 
-<!-- The dots/circles -->
 <div style="text-align:center">
   <span class="dot" onclick="currentSlide(1)"></span> 
   <span class="dot" onclick="currentSlide(2)"></span> 
   <span class="dot" onclick="currentSlide(3)"></span> 
 </div>
-
-  <h2>My Story, Your Story, Our Story.</h2>
-  <h3>A Narrative-Based Website Project</h3>
 </div>
 
 <div id="page1">
@@ -69,7 +67,7 @@
    <br><b>Class Standing:</b> 4th Year
    <br><b>Major:</b> Managerial Economics & Communications Minor
    <br><b>Pronouns:</b> She/Her/Hers
-   <br><a href="#">View Krystienne's Narrative</a></p>
+   <br><button id="narr01">View Krystienne's Narrative</button></p>
 </section>
 
 <section>
@@ -78,7 +76,7 @@
    <br><b>Class Standing:</b> 2nd Year
    <br><b>Major:</b> 
    <br><b>Pronouns:</b> He/Him/His
-   <br><a href="#">View Jowi's Narrative</a></p>
+   <br><button id="narr02">View Jowi's Narrative</button></p>
 </section>
 
 <section>
@@ -87,7 +85,12 @@
   <br><b>Class Standing:</b> 2nd Year
   <br><b>Major:</b> 
   <br><b>Pronouns:</b> They/Them/Theirs
-  <br><a href="#">View Aryssa's Narrative</a></p>
+   <br><button id="narr03">View Aryssa's Narrative</button></p>
+
+  <div id="narrative1">
+      <p>This is where Krystienne's narrative would go.</p>
+      <div id="close">X</div>
+    </div>
 </section>
 </div>
 
@@ -102,4 +105,6 @@
    <a href="mailto:&#115;&#109;&#111;&#098;&#114;&#105;&#113;&#117;&#101;&#064;&#117;&#099;&#100;&#097;&#118;&#105;&#115;&#046;&#101;&#100;&#117;">E-Mail</a> | <a href="https://github.com/smobrique">Github</a>
    | <a href="http://validator.w3.org/check?uri=referer">Valid HTML5</a> | <a href="https://jigsaw.w3.org/css-validator/check/referer">Valid CSS</a>
 </footer>
+
+<script src="script.js"></script>
 </body>
