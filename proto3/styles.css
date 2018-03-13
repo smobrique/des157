@@ -1,0 +1,269 @@
+ * {
+     margin: 0;
+     padding: 0;
+}
+ body {
+     font-family: 'AVENIR', serif;
+     color: #333;
+     background-color: #000;
+}
+
+#home, #page1, #page2, #page3 {
+  width: auto;
+  height: 1000px;
+}
+
+#home {
+	background-color: #fff;
+}
+
+#page1 {
+  background:
+  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+  url("images/lr.jpg");
+  background-size: 100% auto;
+}
+
+#page2 {
+  background:
+      linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+      url("images/retreat.png");
+}
+
+#page3 {
+  background:
+  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+  url("images/mkboard.jpg");
+}
+
+h1 {
+  font-family: 'AVENIR', serif;
+  text-transform: uppercase;
+  color: #3b3652;
+  margin: auto;
+  margin-top: 12px;
+}
+
+h2 {
+  font-family: 'AVENIR', serif;
+  font-style: oblique;
+  font-size: 36px;
+  color: #000;
+  margin: auto;
+  margin-top: 15px;
+  text-shadow: 4px 4px #fff;
+}
+
+h3 {
+  font-family: 'AVENIR', serif;
+  font-size: 48px;
+  color: #fff;
+  margin: auto;
+  padding-left: 25%;
+}
+
+p {
+  font-family: 'AVENIR', serif;
+  font-size: 16px;
+  margin: auto;
+  margin-top: 50px;
+  width: 500px;
+  height: auto;
+  background-color: #fff;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    top: 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: #000;
+    position: fixed;
+    z-index: 9999;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #666;
+}
+
+form {
+  background-color: #666;
+  padding: 10px;
+  margin-left: 500px;
+}
+
+section {
+  float: left;
+  margin-top: 40px;
+  margin-left: 280px;
+  width: 5%;
+}
+
+section p {
+  background-color: #fff;
+  width: 300px;
+}
+
+.button-link {
+	padding: 10px 15px;
+	background: #000;
+	color: #FFF;
+  border-radius: 5px;
+  float: left;
+  margin-left: 45%;
+  margin-top: 40px;
+}
+
+footer {
+    clear: both;
+    position: fixed;
+    margin: auto;
+    bottom: 0;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    background-color: #000;
+}
+footer a {
+    line-height: 22px;
+    margin-bottom: 6px;
+    color: #fff;
+}
+footer a:hover {
+    color: #e2d8f8;
+}
+
+/* homepage slideshow */
+.slideshow-container {
+  width: 100%;
+  height: 800px;
+  position: relative;
+  margin: auto;
+  margin-top: -10px;
+}
+
+.homeSlides {
+    display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 72px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.dot {
+  cursor:pointer;
+  height: 15px;
+  width: 15px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  z-index: 999;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.text {
+  color: #000;
+  font-family: 'AVENIR', sans-serif;
+  font-weight: bold;
+  font-size: 73px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 60px;
+  width: 100%;
+  text-align: center;
+  z-index: 999;
+  text-shadow: 4px 4px #fff;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* narrative overlays */
+button {
+    border: 0px;
+    border-radius: 5px;
+    padding: 12px;
+    background-color: #000;
+    color: #fff;
+    margin-left: 25%;
+}
+
+#narrative1, #narrative2, #narrative3 {
+  position: absolute;
+  left: 0px;
+  top: 2085px;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  color: #5ea7ff;
+  display: none;
+  opacity: 0.95;
+}
+
+#narrative1 p, #narrative2 p, #narrative3 p {
+    font-family: 'Questrial', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 60%;
+    padding: 10px;
+    transform: translate(-50%, -50%);
+}
+#close, #close2, #close3 {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 72px;
+}
