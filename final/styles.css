@@ -21,6 +21,7 @@
  #page1 {
    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/lr.jpg");
    background-size: 100% auto;
+   margin-top: 90px;
  }
 
  #page2 {
