@@ -1,5 +1,7 @@
 console.log("reading js");
 
+'use strict'
+
 /* homepage slides*/
 var slideIndex = 1;
 showSlides(slideIndex);
