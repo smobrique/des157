@@ -145,18 +145,6 @@ section p {
   width: 300px;
 }
 
-article {
-  float: left;
-  margin-top: 40px;
-  margin-left: 90px;
-  width: 50%;
-}
-
-article p {
-  background-color: #fff;
-  width: 300px;
-}
-
 .button-link {
 	padding: 10px 15px;
 	background: #000;
