@@ -9,7 +9,7 @@
 }
 
 #home, #page1, #page2, #page3 {
-  width: auto;
+  width: 1366px;
   height: 1000px;
 }
 
@@ -18,6 +18,7 @@
 }
 
 #page1 {
+  margin-top: -250px;
   background:
   linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
   url("images/lr.jpg");
@@ -25,6 +26,7 @@
 }
 
 #page2 {
+    margin-top: -150px;
   background:
       linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.1)),
       url("images/bg2.jpg");
@@ -38,9 +40,10 @@
 
 h1 {
   font-family: 'AVENIR', serif;
-  text-transform: uppercase;
+  font-size: 48px;
   color: #fff;
-  margin: auto;
+  padding-top: 60px;
+  text-align: center;
 }
 
 h2 {
@@ -56,9 +59,12 @@ h2 {
 
 h3 {
   font-family: 'AVENIR', serif;
-  font-size: 48px;
-  color: #fff;
-  padding-top: 60px;
+  font-style: oblique;
+  font-size: 20px;
+  color: #000;
+  margin: auto;
+  margin-top: 15px;
+  text-shadow: 4px 4px #fff;
   text-align: center;
 }
 
@@ -88,7 +94,7 @@ ul {
 
 ol {
     list-style-type: none;
-    margin-left: 600px;
+    margin: auto;
     top: 20px;
     padding: 0;
     width: 500px;
@@ -136,8 +142,8 @@ form {
 section {
   float: left;
   margin-top: 40px;
-  margin-left: 280px;
-  width: 5%;
+  margin-left: 210px;
+  width: 10%;
 }
 
 section p {
@@ -153,7 +159,7 @@ section p {
   float: left;
   margin-left: 47%;
   margin-top: 40px;
-  -webkit-transition-duration: 0.4s; 
+  -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
 }
 
@@ -170,7 +176,7 @@ section p {
   float: left;
   margin-left: 25%;
   margin-top: 40px;
-  -webkit-transition-duration: 0.4s; 
+  -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
 }
 
@@ -201,7 +207,6 @@ footer a:hover {
 /* homepage slideshow */
 .slideshow-container {
   width: 100%;
-  height: 800px;
   position: relative;
   margin: auto;
   margin-top: -10px;
@@ -233,21 +238,6 @@ footer a:hover {
   background-color: rgba(0,0,0,0.8);
 }
 
-.dot {
-  cursor:pointer;
-  height: 15px;
-  width: 15px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-  z-index: 9999;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
 .text {
   color: #000;
   font-family: 'AVENIR', sans-serif;
@@ -270,12 +260,12 @@ footer a:hover {
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .4}
   to {opacity: 1}
 }
 
 @keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .4}
   to {opacity: 1}
 }
 
